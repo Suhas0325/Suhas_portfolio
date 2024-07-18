@@ -1,11 +1,9 @@
-
-
 .navbar {
   display: flex;
   flex-direction: row;
-   justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
-  gap: 300px;
+  padding: 0 20px;
   position: fixed;
   top: 0;
   width: 100%;
@@ -91,6 +89,52 @@ button {
   }
 
   .navs li a {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .navbar {
+    padding: 0 10px;
+  }
+
+  .menu-button {
+    font-size: 1.5rem;
+  }
+
+  .navs li a {
+    font-size: 0.8rem;
+    padding: 0.5rem;
+  }
+
+  .links {
+    top: 50px;
+  }
+
+  .Portfolio h2 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .navbar {
+    padding: 0 5px;
+  }
+
+  .menu-button {
+    font-size: 1.2rem;
+  }
+
+  .navs li a {
+    font-size: 0.7rem;
+    padding: 0.4rem;
+  }
+
+  .links {
+    top: 50px;
+  }
+
+  .Portfolio h2 {
     font-size: 1rem;
   }
 }
