@@ -7,6 +7,7 @@ import Contact from "./Components/Contact/contact";
 import About from "./Components/AboutUs/About";
 import Projects from "./Components/Projects/Projects";
 import Footer from "./Components/Footer/footer";
+import { SpeedInsights } from "@vercel/speed-insights/react"
 function App() {
   return (
     <div className="App">
