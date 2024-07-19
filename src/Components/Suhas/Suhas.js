@@ -1,5 +1,5 @@
 import './Suhas.css'
-import suhas from '../Images/Suhas.jpg'
+import suhas from '../Images/suhas_photo.jpg'
 import github from '../Images/github_logo.png'
 import linkedin from '../Images/final_link.png'
 import { Link } from 'react-scroll';
