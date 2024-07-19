@@ -70,6 +70,13 @@ const Contact = () => {
             Submit
           </button>
         </form>
+        <Snackbar
+          open={snackbarData.open}
+          autoHideDuration={6000}
+          onClose={() => setSnackbarData({ ...snackbarData, open: false })}
+          message={snackbarData.message}
+          severity={snackbarData.severity}
+        />
       </div>
     </div>
   );
